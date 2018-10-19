@@ -5,18 +5,19 @@ body {
 	text-align: center;
 	font-family: Arial;
 	font-size: 100%;
+	background-color: #ccdeef;
 }
 h1{
 	text-align: center;
-	font-family: Arial;
+	/* font-family: Arial; */
 	font-family: Courier, Serif;
 	transform: scale(1,1.1);
 	font-size: 240%;
 }
 h2{
 	text-align: center;
-	font-family: "Times New Roman", Times;
-	font-size: 20px;
+	font-family: Arial;
+	font-size: 150%;
 }
 h3{
 	text-align: center;
@@ -114,7 +115,7 @@ div.projectDate{
 img.gallery{
 	width: 99%;
 	border-style: solid;
-	border-color: white;
+	border-color: #99abbc;
 	border-width: 3px;
 }
 img.interest{
@@ -185,13 +186,13 @@ hover
 	display:block;
 }
 .dropdown:hover .dropbtn{
-	color: grey;
+	color: DimGrey;
 }
 a.internal:hover{
-	color: grey;
+	color: DimGrey;
 }
 a.download:hover{
-	color: lightblue;
+	color: DodgerBlue;
 }
 a.external:hover{
 	color:lightslategrey;
