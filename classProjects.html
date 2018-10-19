@@ -1,0 +1,260 @@
+<html>
+<head>
+  <title>Michael Abadjiev</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<h1>
+	<br/>MICHAEL&nbspABADJIEV
+	</h1>
+	<div class="menu">
+	<a href="index.html" class="internal">
+	Home
+	</a>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<a href="Resume.html" class="internal">
+	Resume
+	</a>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<div class="dropdown">
+			<span class="dropbtn"><b>Projects</b></span>
+			<div class="dropdown-content">
+				<a href="classProjects.html">Class Projects</a>
+				<a href="clubProjects.html">Club Projects</a>
+				<a href="personalProjects.html">Personal Projects</a>
+			</div>
+	</div>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<div class="dropdown">
+			<span class="dropbtn">Gallery</span>
+			<div class="dropdown-content">
+				<a href="gallery.html">Projects Gallery</a>
+				<a href="interests.html">Interests Gallery</a>
+			</div>
+	</div>
+	<br/>
+	<hr/ color="lightslategray">
+	</div>
+	
+	<!--RBE 2002-->
+	<a href="gallery.html#RBE2002" class="project">
+	<table>
+		<tr>
+			<td colspan = "3" align = "left" valign = "middle"> 
+				<div class="projectHeader">Unified Robotics II (RBE 2002)</div>
+				<div class="projectDate">March 2018 - May 2018</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="projectPicture"> 
+				<img width = "100%"  src = "images/RBE 2002/rbe2002.JPG"></img> 
+			</td>
+			<td class="projectTools"> 
+				&nbsp <u><b>Tools used</b></u> <br/>
+					<ul class="tools">
+						<li> Solidworks </li>
+						<li> Laser cutter</li>
+						<li> Arduino </li>
+						<li> 3D printer</li>
+						<li> GrabCad</li>
+					</ul>
+			</td>
+			<td class="projectDescription">
+				<u><b>Description</b></u><br/>
+					&nbsp&nbsp&nbsp&nbsp&nbsp
+					The focus of RBE 2002 at WPI is on sensing and reacting to your environment, and especially dealing with the imperfect information common in any sensor.
+					The term project focused on applying what we learned in class to a robot that had to navigate a small maze in search of a candle, and extinguish it.
+					The robot had to be able to navigate the entire maze fully autonomosly, and report the location of the candle flame with respect to its original start position at the end of the run.
+					To do this, my team used infrared rangefinders on its right side to follow a wall, making only left turns, and a forward-mounted rangefinder to detect any obstacles. 
+					While doing this, an array of 16 flame-detection sensors continuously scanned the area, until a flame was detected, indicating that it had entered the same room as the candle.
+					Finally, a more finely-tuned sensor on a 2-axis gimbal was used accurately determine the height of the candle in order to be able to point a high-powered fan at it and extinguish it.
+					Additionally, a black-line sensor was mounted on the base of the robot in order to detect and avoid going over an edge and falling off the table.
+					In order to keep track of all of these sensors, and I2C interface was used for the rangefinders, and SPI for the flame sensors.
+					Additionally, the flame detection sensors were mounted on boards of 4 sensors, which were in turn connected to a main controller board for the flame sensors.
+					This allowed us to divide teh sensors into sub-packets to monitor which one of them detected a flame.
+					<br/>
+					<br/>
+					Project report download:
+					<a href="documents/RBE 2002 Final Report.pdf" class="download"> Click here </a>
+			</td>
+		</tr>
+	</table>
+	</a>
+	 
+	<!--RBE 2001-->
+	<a href="gallery.html#RBE2001" class="project">
+	<table>
+		<tr>
+			<td colspan = "3" align = "left" valign = "middle"> 
+				<div class="projectHeader">Unified Robotics I (RBE 2001)</div>
+				<div class="projectDate">Jan 2018 - March 2018</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="projectPicture"> 
+				<img width = "100%"  src = "images/RBE 2001/robot on field final.JPG"></img> 
+			</td>
+			<td class="projectTools"> 
+				&nbsp <u><b>Tools used</b></u> <br/>
+					<ul class="tools">
+						<li> Solidworks </li>
+						<li> Motion Studies</li>
+						<li> Laser Cutter </li>
+						<li> Arduino </li>
+						<li> 3D printing</li>
+					</ul>
+			</td>
+			<td class="projectDescription">
+				<u><b>Description</b></u><br/>
+					&nbsp&nbsp&nbsp&nbsp&nbsp <!--indent first line-->
+					This was my term project for RBE 2001: Unified Robotics I.
+					The challenge for this project is to work on a team of 3 to design a robot that can autonomously service a "nuclear reactor facility".
+					The robot must be able to extract fuel rods from horizontal storage tubes, place them into the vertical reactor tubes, and place used fuel rods into more horizontal containment tubes.
+					It is fully autonomous, relying only on information sent via Bluetooth from the Robot Command Station(RCS) which tells the robot which reactor needs fuel, and which storage/containment tubes are empty.
+					The robot also sends a periodic  heartbeat message to the RCS to show that it is still functioning.
+					<br/>
+					<br/>
+					Project report download:
+					<a href="documents/RBE 2001 Final Report Team 18.pdf" class="download"> Click here </a>
+			</td>
+		</tr>
+	</table>
+	</a>
+	
+	<!--CS3733-->
+	<a href="gallery.html#CS3733" class="project">
+	<table>
+		<tr>
+			<td colspan = "3" align = "left" valign = "middle"> 
+				<div class="projectHeader">Software Engineering (CS 3733)</div>
+				<div class="projectDate">October 2017 - December 2017</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="projectPicture"> 
+				<img width = "100%"  src = "images/CS3733/main screen.png"></img> 
+			</td>
+			<td class="projectTools"> 
+				&nbsp <u><b>Tools used</b></u> <br/>
+					<ul class="tools">
+						<li> Javafx </li>
+						<li> Apache derby database </li>
+						<li> Javafx </li>
+						<li> scenebuilder</li>
+					</ul>
+			</td>
+			<td class="projectDescription">
+				<u><b>Description</b></u><br/>
+					&nbsp&nbsp&nbsp&nbsp&nbsp <!--indent first line-->
+					For CS 3733 Software Engineering, I worked on a team of 10 to develop an application for kiosks in the Brigham and Women's hospital in Boston MA.
+					The application provides features to hospital visitors and employees alike, such as animated pathfinding around the hospital, 
+					requesting services, a key location finder, a feature for administrators to edit the map etc.
+					As the project manager I was responsible for distributing tasks among the team, as well as running our daily scrum meetings.
+					I also wrote a large portion of the controller classes for the UI components.
+					Some noteworthy features that I worked on include the path animations, the key locations, and the map building UI, which can be acessed from the admin screen.
+					<br/>
+					<br/>
+					
+					Project download (zip containing report, executable jar file, and manual): 
+					<a href="documents/CS3733TeamDProject-4.0.zip" class="download"> Click here </a>
+					<br/>
+					<a href="https://github.com/mikebuilder/CS3733TeamDProject" class="external">github repository</a>
+
+			</td>
+		</tr>
+	</table>
+	</a>
+	
+	<!--3D printing ISP-->
+	<a href="gallery.html#printer" class="project">
+	<table>
+		<tr>
+			<td colspan=3> 
+				<div class="projectHeader">Continuous 3D printing ISP</div>
+				<div class="projectDate">March 2017 - Nov 2017</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="projectPicture"> 
+				<a href = "gallery.html#3DprintingISP">
+					<img width = "100%"  src = "images/3D printing ISP/1.jpg"></img> 
+				</a>
+			</td>
+			
+			<td class="projectTools"> 
+				&nbsp <u><b>Tools used</b></u> <br/>
+					<ul class="tools">
+						<li> Solidworks </li>
+						<li> Laser Cutter </li>
+						<li> 3D printer </li>
+					</ul>
+			</td>
+			
+			<td class="projectDescription">
+				<u><b>Description</b></u><br/>
+					&nbsp&nbsp&nbsp&nbsp&nbsp <!--indent first line-->
+					This was an independant study project (ISP) in which I worked with one other person to develop an add-on for FDM
+					3D printers that allows for continuous printing.  The point of this ISP was to serve as a proof of concept for a new
+					approach that is simpler and easier to implement than many traditional ideas.  It uses an adaptable vacuum bed
+					design, enabled by a shop vac, to hold paper in place while printing, then roles the paper off after each print.
+					<br/>
+					<br/>
+					<!--
+					<u><b> Tools used:</b></u> <br/>
+					&nbsp&nbsp&nbsp&nbsp&nbspSolidworks, Laser Cutter, 3D printer
+					<br/>
+					<br/>
+					-->
+					Project report download: 
+					<a href="documents/3D printing ISP.pdf" class="download"> Click here </a>
+		</tr>
+	</table>
+	</a>
+	
+	<br/><br/>
+	
+	<!--RBE 1001-->
+	<a href="gallery.html#RBE1001" class="project">
+	<table>
+		<tr>
+			<td colspan = "3" align = "left" valign = "middle"> 
+				<div class="projectHeader">Introduction to Robotics (RBE 1001)</div>
+				<div class="projectDate">Jan 2017 - March 2017</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="projectPicture"> 
+				<img width = "100%"  src = "images/RBE 1001/RBE 1001 - 1.JPG"></img> 
+			</td>
+			<td class="projectTools"> 
+				&nbsp <u><b>Tools used</b></u> <br/>
+					<ul class="tools">
+						<li> Inventor </li>
+						<li> Laser Cutter </li>
+						<li> Arduino </li>
+					</ul>
+			</td>
+			<td class="projectDescription">
+				<u><b>Description</b></u><br/>
+					&nbsp&nbsp&nbsp&nbsp&nbsp <!--indent first line-->
+					This was my final project for my RBE 1001 introduction to robotics class.  
+					For this project I worked on a team of 3 to design and build a robot for WPI's "Savage Soccer" competition. 
+					For us, the competition involved moving "eggs" into various scoring locations, as well as a final challenge of hanging the robot off of a horizontal bar.  
+					A large part of the project was also an analysis of our robot using equations of static equilibrium to ensure that our design would be robust before buiding it.
+					These calculations can be found in detail in the project report, available for download below.				
+					<br/>
+					<br/>
+					Project report download: 
+					<a href="documents/RBE1001.pdf" class="download"> Click here </a>
+
+			</td>
+		</tr>
+	</table>
+	</a>
+			
+	
+	
+	
+	
+</body>
+</html>

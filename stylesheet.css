@@ -1,0 +1,201 @@
+/********
+Tags
+********/
+body {
+	text-align: center;
+	font-family: Arial;
+	font-size: 100%;
+}
+h1{
+	text-align: center;
+	font-family: Arial;
+	font-family: Courier, Serif;
+	transform: scale(1,1.1);
+	font-size: 240%;
+}
+h2{
+	text-align: center;
+	font-family: "Times New Roman", Times;
+	font-size: 20px;
+}
+h3{
+	text-align: center;
+	font-family: Times;
+	font-size: 100%;
+}
+a.dropdown{
+	text-decoration: none;
+	color: black;
+	transition-duration: 0.3s;
+	font-weight: normal;
+}
+span{
+	transition-duration: 0.3s;
+}
+ul.tools{
+	list-style-type: none;
+	padding: 2px;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+ul.tools > li:before{
+	
+	content: "-";
+}
+li{
+	margin-top: 1px;
+}
+table{
+	font-size: 100%;
+	margin-left:auto; 
+    margin-right:auto;
+	width:90%;
+}
+p.about{
+	font-size: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.25;
+	text-align: center;
+}
+
+/***************
+Class CSS
+***************/
+
+.menu{
+	text-align: center;
+	text-decoration: none;
+	font-size: 100%;
+}
+div.galHead{
+	margin-top: 5;
+	font-size:120%;
+	font-weight: bold;
+	font-style: italic;
+}
+div.galRow{
+	width: 20%;
+	height: 20%;
+}
+div.projectHeader{
+	font-size: 160%;
+	margin-bottom: 3;
+	font-weight: bold;
+	float: left;
+}
+td.projectPicture{
+	width: 25%;
+	vertical-align: top;
+	align: center;
+}
+td.projectTools{
+	width: 130;
+	align: left;
+	vertical-align: top;
+}
+td.projectDescription{
+	vertical-align: top;
+	align: left;
+}
+td.galleryRow{
+	width: 30%;
+	vertical-align: middle;
+}
+td.sidebar{
+	text-align: center;
+	vertical-align: top;
+}
+div.projectDate{
+	font-size: 105%;
+	float:right;
+	text-align:right;
+}
+img.gallery{
+	width: 99%;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+}
+img.interest{
+	width: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.dropbtn{
+	cursor: pointer;
+	font-weight: normal;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+	
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	text-align: left;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black;
+	text-decoration: none;
+	padding: 8px 8px;
+	display: block;
+}
+a.internal{
+	font-weight:normal;
+	text-decoration: none;
+	color: black;
+	transition-duration: 0.3s;
+}
+a.download{
+	color: blue;
+	text-decoration: underline;
+}
+a.external{
+	color: blue;
+	text-decoration: underline;
+}
+a.project{
+	text-decoration: none;
+}
+.link{
+	font-size:30%;
+	font-family: Times;
+}
+
+/************
+hover
+************/
+
+
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+.dropdown:hover .dropbtn{
+	color: grey;
+}
+a.internal:hover{
+	color: grey;
+}
+a.download:hover{
+	color: lightblue;
+}
+a.external:hover{
+	color:lightslategrey;
+}
+.dropdown-content a:hover{
+	background-color: #f1f1f1;
+}
