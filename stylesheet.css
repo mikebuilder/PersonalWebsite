@@ -59,6 +59,7 @@ Slideshow stuff
   width: 15px;
   margin: 0 2px;
   background-color: #bbcdde;
+  /* background-color: #bbcdde; */
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
