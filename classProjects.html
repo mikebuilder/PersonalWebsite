@@ -34,8 +34,9 @@
 	<hr color="lightslategray">
 	</div>
 	
+
 	<!--RBE 3002-->
-<!-- 	<a href="gallery.html#RBE3002" class="project">
+	<!-- <a href="gallery.html#RBE3002" class="project"> -->
 	<table>
 		<tbody><tr>
 			<td colspan="3" align="left" valign="middle"> 
@@ -44,46 +45,39 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="projectPicture"> 
-				<iframe width="400" height="225" src="https://www.youtube-nocookie.com/embed/PaxZjTWr1kE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-				<!-- <img width="100%" src="images/RBE 3001/rbe3001robot.jpg">  -->
-			<!-- </td>
+			<td>
+				<iframe width="400" height="225" src="https://www.youtube.com/embed/n_GQZ8FX10Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</td>
 			<td class="projectTools"> 
 				&nbsp; <u><b>Tools used</b></u> <br>
 					<ul class="tools">
 						<li> Github</li>
-						<li> Matlab </li>
-						<li> C++</li>
 						<li> Python </li>
-						<li> Robot Kinematics</li>
 						<li> Linux </li>
-						<li> Raspberry Pi</li>
-						<li> STM Nucleo</li>
+						<li> ROS Kinetic</li>
+						<li> turtlebot burger</li>
 					</ul>
 			</td>
 			<td class="projectDescription">
 				<u><b>Description</b></u><br>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					In this project, I worked on a team of 3 to implement functionality for a 3 degree of freedom robotic arm to be able to sort objects based on color and weight.
-					We used forward and inverse robot kinematics to be able to track the robot's position at any given time, and interpolate from task-space desired locations to the required joint-space positions.
-					A trajectory planning algorithm was used to interpolate between desired points and generate smooth paths.
-					This, coupled with a PID controller resulted in a smoothly moving robot that was able to sort objects by weight and color.
-					Additionally, we chose to implement remote control of the robot, both using voice control to activate it, and a 3D space mouse to operate it.
-					<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					The arm was provided to us a lab material, and uses a STM Nucleo as the robot control board.
-					It features servo motors to operate each joint, as well as magnetic encoders and load cells at each joint to report the orientation and measured torque on each link.
-					The robot's firmware is written in C++, and was mostly provided by the lab, however, we made some key additions to be able to communicate better with the robot.
-					Commands were sent to the robot using Matlab scripts running on a Linux machine in the lab.
-					All major computations were kept on the Matlab side, in order to utilize the significantly grater processing power and speed of the lab computers, compared to the Nucleo.
-					Finally, a Raspberry Pi acting as an Apple home device, connected to the Matlab machine via a serial connection, was used to enable remote control of the robot.
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--indent first line-->
+					RBE 3002 is the final course in the robotics sequence at WPI. 
+					In this class, we focused on autonomous navigation, with the final project being a full implementation of a simultaneous localization and mapping (SLAM) robot.
+					We used the turtlebot 3 burger as the base for this robot, due to the easily available ROS support. 
+					Our robot makes use of some of the readily available mapping support for the turtlebot, like the gmapping and monte carlo localization functions which localize the robot within its environment.
+					We devloped our own exploration pattern, using our own implementation of the A* search algorithm to travel to the nearest unexplored "frontier" and then proceed to the next, until the entire area is mapped.
+					Once the robot has mapped its environment, it enters a state where it waits for a goal location input from the user to determine where to travel to next.
+					For detailed descriptions of the ROS nodes we devloped, and flowcharts showing the program operation, check out the final presentation, attached below.
+
 					<br>
 					<br>
-					Project report download:
-					<a href="documents/RBE 3001 Final Report.pdf" class="download"> Click here </a>
+					Project presentation download:
+					<a href="documents/Final Presentation.pdf" class="download"> Click here </a>
 			</td>
 		</tr>
 	</tbody></table>
-	</a> -->
+	<!-- </a> -->
+
 	
 	<!--RBE 3001-->
 	<a href="gallery.html#RBE3001" class="project">

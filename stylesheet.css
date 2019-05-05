@@ -87,7 +87,7 @@ Slideshow stuff
   to {opacity: 1}
 }
 
-img.slideshow{
+.slideshow{
 	border-style: solid;
 	border-color: #99abbc;
 	border-width: 3px;
