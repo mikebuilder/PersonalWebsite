@@ -6,7 +6,7 @@ Slideshow stuff
     max-width: 750px;
     max-height: 500px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
 }
 
 /* Hide the images by default */
@@ -58,8 +58,7 @@ Slideshow stuff
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbcdde;
-  /* background-color: #bbcdde; */
+  background-color: #ddeeff;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -87,21 +86,24 @@ Slideshow stuff
   to {opacity: 1}
 }
 
-.slideshow{
+img.slideshow{
 	border-style: solid;
 	border-color: #99abbc;
 	border-width: 3px;
-	height: 500px;
+	width: 90%;
 }
 
 /********
 Tags
 ********/
 body {
-	text-align: center;
+	/* text-align: center; */
 	font-family: Arial;
 	font-size: 100%;
-	background-color: #ccdeef;
+	background-color: #bbcdde;
+	/* background-color: #fef1d0; */
+	/* background-color: #D9E5FA; */
+
 }
 h1{
 	text-align: center;
@@ -155,6 +157,14 @@ p.about{
 	line-height: 1.25;
 	text-align: justify;
 }
+p.home{
+	font-size: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-right: auto;
+	line-height: 1.25;
+	text-align: center;
+}
 
 /***************
 Class CSS
@@ -202,6 +212,11 @@ td.galleryRow{
 td.sidebar{
 	text-align: center;
 	vertical-align: top;
+}
+td.home{
+	text-align: justify;
+	vertical-align: top;
+	width: 50%;
 }
 div.projectDate{
 	font-size: 105%;
