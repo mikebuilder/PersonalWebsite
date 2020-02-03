@@ -230,10 +230,13 @@ img.gallery{
 	border-width: 3px;
 }
 img.interest{
-	width: 75%;
+	width: 80%;
 	border-style: solid;
 	border-color: black;
 	border-width: 3px;
+}
+img.no_border{
+	width: 80%;
 }
 .rotate90 {
     -webkit-transform: rotate(90deg);
