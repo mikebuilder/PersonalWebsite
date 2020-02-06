@@ -218,6 +218,9 @@ td.home{
 	vertical-align: top;
 	width: 50%;
 }
+img {
+    image-orientation: from-image;
+}
 div.projectDate{
 	font-size: 105%;
 	float:right;
